@@ -1,0 +1,21 @@
+#+TITLE: ScalaDays 2019
+#+AUTHOR:
+#+REVEAL_THEME: sky
+#+REVEAL_TRANS: default
+#+OPTIONS: toc:nil, num:nil
+
+* Report from the Trenches
+:PROPERTIES:
+:reveal_background: images/olympic-dinner-view.jpg
+:reveal_background_trans: slide
+:END:
+
+* Events
+
+** Contributer's Summit
+
+** Main event
+
+** TypeLevel Summit
+
+* Talks
