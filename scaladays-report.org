@@ -56,13 +56,23 @@ Heiko Seeberger ([[https://www.twitter.com/hseeberger][@hseeberger]])
 
 Stu Hood ([[https://www.twitter.com/stuhood][@stuhood]])
 
+=Summary:= Twitter is doing some amazing things to speed up compilation on a code base with millions of lines of Scala code.
+
 ** [[https://scaladays.org/schedule/making-our-future-better][Making Our Future Better]]
 
 Viktor Klang ([[https://www.twitter.com/viktorklang][@viktorklang]])
 
+=Summary:=
+In future Future's will still immediately start running when created. I am Viktor, and I declare that this is a feature, not a bug.
+Regardless, there are a few things that can be done to make an eager Future faster and better. We've done those things.
+
 ** [[https://scaladays.org/schedule/the-shapeless-of-type-class-derivation-in-scala-3][The Shape(less) of Type Class Derivation in Scala 3]]
 
 Miles Sabin ([[https://www.twitter.com/milessabin][@milessabin]])
+
+=Summary:=
+I modified the compiler in a few trivial ways so you can see the code that get generated at compile time when I do these simple but totally incomprehensible things.
+The reason why you would want to do these uncomprehensible things is unclear. Maybe it only applies to people wanting to write the Shapeless library.
 
 ** [[https://scaladays.org/schedule/concurrent-programming-in-2019-akka-monix-or-zio][Concurrent programming in 2019: Akka, Monix or ZIO?]]
 
