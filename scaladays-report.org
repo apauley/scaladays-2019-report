@@ -78,7 +78,7 @@ Bogdan Vasilescu
 
 ** [[https://scaladays.org/schedule/scalaclean---full-program-static-analysis-at-scale][ScalaClean - full program static analysis at scale]]
 
-Rory Graves ([[https://www.twitter.com/a_dev_musing][@a_dev_musing]])
+Rory Graves ([[https://www.twitter.com/a_dev_musing][@a__dev__musing]])
 
 ** [[https://scaladays.org/schedule/pick-your-number-type-with-spire][Pick your number type with Spire]]
 
@@ -86,7 +86,7 @@ Denis Rosset
 
 ** [[https://scaladays.org/schedule/compiling-to-preserve-our-privacy][Compiling to preserve our privacy]]
 
-Manohar Jonnalagedda ([[https://www.twitter.com/manojah_shanti][@manojah_shanti]]) and Jakob Odersky ([[https://www.twitter.com/jodersky][@jodersky]])
+Manohar Jonnalagedda ([[https://www.twitter.com/manojah_shanti][@manojah__shanti]]) and Jakob Odersky ([[https://www.twitter.com/jodersky][@jodersky]])
 
 ** [[https://scaladays.org/schedule/interactive-computing-with-jupyter-and-almond][Interactive Computing with Jupyter and Almond]]
 
