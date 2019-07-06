@@ -12,10 +12,68 @@
 
 * Events
 
-** Contributer's Summit
+** Monday: Contributer's Summit
 
-** Main event
+** Tuesday - Thursday: Main event
 
-** TypeLevel Summit
+** Friday: TypeLevel Summit
 
-* Talks
+** Other Surrounding Events
+
+Various dinners, coding get-togethers and walking tours.
+
+* ScalaDays Talks
+
+** I attended
+
+*** A Tour of Scala 3 (Keynote)
+
+=Speaker:= Martin Odersky ([[https://www.twitter.com/odersky][@odersky]])
+
+=Summary:=
+Some cool new features that makes Scala development easier and simpler for beginners,
+as well as many features that will help you when writing functional programs.
+
+*** A story of unification: from Apache Spark to MLflow
+
+=Speaker:= Reynold Xin ([[https://www.twitter.com/rxin][@rxin]])
+
+=Summary:= Data pipelines using Scala is cool. Also, you should use our commercial products.
+
+*** [[https://scaladays.org/schedule/techniques-for-teaching-scala][Techniques for Teaching Scala]]
+
+=Speaker:= Noel Welsh ([[https://www.twitter.com/noelwelsh][@noelwelsh]])
+
+=Summary:= We should focus on developing our teaching skills. Here are some useful ways to do this in Scala.
+
+*** Akka Streams to the Extreme - Heiko Seeberger
+
+=Speaker:=
+
+=Summary:=
+
+*** Massively Parallel Distributed Scala Compilation... And You! - Stu Hood
+
+*** Making Our Future Better - Viktor Klang
+
+*** The Shape(less) of Type Class Derivation in Scala 3 - Miles Sabin
+
+*** Concurrent programming in 2019: Akka, Monix or ZIO? - Adam Warski
+
+*** Pure Functional Database Programming‚ without JDBC - Rob Norris
+
+*** Sustaining open source digital infrastructure - Bogdan Vasilescu
+
+*** ScalaClean - full program static analysis at scale - Rory Graves
+
+*** Pick your number type with Spire - Denis Rosset
+
+*** Compiling to preserve our privacy - Manohar Jonnalagedda and Jakob Odersky
+
+*** Interactive Computing with Jupyter and Almond - Sören Brunk
+
+*** All the fancy things flexible dependency management can do - Alexandre Archambault
+
+** I wish I attended
+
+* TypeLevel Summit Talks
