@@ -12,68 +12,92 @@
 
 * Events
 
-** Monday: Contributer's Summit
+- Monday: Contributer's Summit
 
-** Tuesday - Thursday: Main event
+- Tuesday - Thursday: ScalaDays 2019 Talks
 
-** Friday: TypeLevel Summit
+- Friday: TypeLevel Summit
 
 ** Other Surrounding Events
 
 Various dinners, coding get-togethers and walking tours.
 
-* ScalaDays Talks
+* ScalaDays Talks I Attended
 
-** I attended
+** A Tour of Scala 3 (Keynote)
 
-*** A Tour of Scala 3 (Keynote)
-
-=Speaker:= Martin Odersky ([[https://www.twitter.com/odersky][@odersky]])
+Martin Odersky ([[https://www.twitter.com/odersky][@odersky]])
 
 =Summary:=
 Some cool new features that makes Scala development easier and simpler for beginners,
 as well as many features that will help you when writing functional programs.
 
-*** A story of unification: from Apache Spark to MLflow
+** A story of unification: from Apache Spark to MLflow
 
-=Speaker:= Reynold Xin ([[https://www.twitter.com/rxin][@rxin]])
+Reynold Xin ([[https://www.twitter.com/rxin][@rxin]])
 
 =Summary:= Data pipelines using Scala is cool. Also, you should use our commercial products.
 
-*** [[https://scaladays.org/schedule/techniques-for-teaching-scala][Techniques for Teaching Scala]]
+** [[https://scaladays.org/schedule/techniques-for-teaching-scala][Techniques for Teaching Scala]]
 
-=Speaker:= Noel Welsh ([[https://www.twitter.com/noelwelsh][@noelwelsh]])
+Noel Welsh ([[https://www.twitter.com/noelwelsh][@noelwelsh]])
 
 =Summary:= We should focus on developing our teaching skills. Here are some useful ways to do this in Scala.
 
-*** Akka Streams to the Extreme - Heiko Seeberger
+** Akka Streams to the Extreme
 
-=Speaker:=
+Heiko Seeberger ([[https://www.twitter.com/hseeberger][@hseeberger]])
 
-=Summary:=
+=Summary:= Akka Actors have many anti-patterns. Here is an example where doing distributed computation with Akka Streams can be better.
 
-*** Massively Parallel Distributed Scala Compilation... And You! - Stu Hood
+** Massively Parallel Distributed Scala Compilation... And You!
 
-*** Making Our Future Better - Viktor Klang
+Stu Hood ([[https://www.twitter.com/stuhood][@stuhood]])
 
-*** The Shape(less) of Type Class Derivation in Scala 3 - Miles Sabin
+** Making Our Future Better
 
-*** Concurrent programming in 2019: Akka, Monix or ZIO? - Adam Warski
+Viktor Klang ([[https://www.twitter.com/viktorklang][@viktorklang]])
 
-*** Pure Functional Database Programming‚ without JDBC - Rob Norris
+** The Shape(less) of Type Class Derivation in Scala 3
 
-*** Sustaining open source digital infrastructure - Bogdan Vasilescu
+Miles Sabin ([[https://www.twitter.com/milessabin][@milessabin]])
 
-*** ScalaClean - full program static analysis at scale - Rory Graves
+** Concurrent programming in 2019: Akka, Monix or ZIO?
 
-*** Pick your number type with Spire - Denis Rosset
+Adam Warski ([[https://www.twitter.com/adamwarski][@adamwarski]])
 
-*** Compiling to preserve our privacy - Manohar Jonnalagedda and Jakob Odersky
+** Pure Functional Database Programming‚ without JDBC
 
-*** Interactive Computing with Jupyter and Almond - Sören Brunk
+Rob Norris ([[https://www.twitter.com/tpolecat][@tpolecat]])
 
-*** All the fancy things flexible dependency management can do - Alexandre Archambault
+** Sustaining open source digital infrastructure
 
-** I wish I attended
+Bogdan Vasilescu
+
+** ScalaClean - full program static analysis at scale
+
+Rory Graves ([[https://www.twitter.com/a_dev_musing][@a_dev_musing]])
+
+** Pick your number type with Spire
+
+Denis Rosset
+
+** Compiling to preserve our privacy
+
+Manohar Jonnalagedda ([[https://www.twitter.com/manojah_shanti][@manojah_shanti]]) and Jakob Odersky ([[https://www.twitter.com/jodersky][@jodersky]])
+
+** Interactive Computing with Jupyter and Almond
+
+Sören Brunk ([[https://www.twitter.com/soebrunk][@soebrunk]])
+
+** All the fancy things flexible dependency management can do
+
+Alexandre Archambault ([[https://www.twitter.com/alxarchambault][@alxarchambault]])
+
+* Other ScalaDays Talks
+
+https://scaladays.org/schedule
+
+https://portal.klewel.com/watch/nice_url/scala-days-2019/
 
 * TypeLevel Summit Talks
