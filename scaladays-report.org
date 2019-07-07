@@ -38,6 +38,13 @@ EPFL Campus, where Scala began
 :reveal_background_trans: slide
 :END:
 
+** Cathedral
+:PROPERTIES:
+:reveal_background: images/Cathedral.jpg
+:reveal_background_size: 1500px
+:reveal_background_trans: slide
+:END:
+
 * Schedule Overview
 
 - Monday: Contributor's Summit
