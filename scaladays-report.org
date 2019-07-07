@@ -16,6 +16,16 @@ Andreas Pauley
 
 [[https://twitter.com/apauley][@apauley]]
 
+** The Venue
+:PROPERTIES:
+:reveal_background: images/EPFL.jpg
+:reveal_background_trans: slide
+:END:
+
+EPFL Campus, where Scala began
+
+École Polytechnique Fédérale de Lausanne
+
 * Schedule Overview
 
 - Monday: Contributor's Summit
