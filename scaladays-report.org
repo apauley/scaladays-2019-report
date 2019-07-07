@@ -4,25 +4,35 @@
 #+REVEAL_TRANS: default
 #+OPTIONS: toc:nil, num:nil
 
-* Report from the Trenches
+* ScalaDays 2019
 :PROPERTIES:
 :reveal_background: images/olympic-dinner-view.jpg
 :reveal_background_trans: slide
 :END:
 
-* Events
+Report from the Trenches
+
+Andreas Pauley
+
+[[https://twitter.com/apauley][@apauley]]
+
+* Schedule Overview
 
 - Monday: Contributor's Summit
 
 - Tuesday - Thursday: ScalaDays 2019 Talks
 
-- Friday: TypeLevel Summit
+- Friday: Typelevel Summit
 
-** Other Surrounding Events
+* Other Surrounding Events
 
 Various dinners, coding get-togethers and walking tours.
 
 * A Few ScalaDays Talks
+:PROPERTIES:
+:reveal_background: images/ScalaDaysBanner.jpg
+:reveal_background_trans: slide
+:END:
 
 ** [[https://scaladays.org/schedule/a-tour-of-scala-3][A Tour of Scala 3]] (Keynote)
 
@@ -121,7 +131,7 @@ https://scaladays.org/schedule
 
 https://portal.klewel.com/watch/nice_url/scala-days-2019/
 
-* [[https://typelevel.org/event/2019-06-summit-lausanne/][TypeLevel Summit Talks]]
+* [[https://typelevel.org/event/2019-06-summit-lausanne/][Typelevel Summit Talks]]
 
 ** Some Mistakes We Made When Designing Implicits (And Some Things We Got Right)
 
