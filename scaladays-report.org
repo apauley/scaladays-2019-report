@@ -81,6 +81,15 @@ EPFL Campus, where Scala began
 :reveal_background_trans: slide
 :END:
 
+* The Scala Staircase
+:PROPERTIES:
+:reveal_background: images/ScalaStaircase.jpg
+:reveal_background_trans: slide
+:reveal_background_size: 700px
+:reveal_background_repeat: repeat
+:END:
+
+
 * Other Surrounding Events
 
 Various dinners, coding get-togethers and walking tours.
