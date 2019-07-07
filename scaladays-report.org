@@ -24,6 +24,12 @@ Andreas Pauley
 
 - Friday: Typelevel Summit
 
+* Contributor's Summit
+:PROPERTIES:
+:reveal_background: images/ContributorsSummit.jpg
+:reveal_background_trans: slide
+:END:
+
 * Other Surrounding Events
 
 Various dinners, coding get-togethers and walking tours.
