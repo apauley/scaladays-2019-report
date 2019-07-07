@@ -1,0 +1,3 @@
+* Report from the trenches: Scala Days 2019
+
+A [[https://www.meetup.com/lambda-luminaries/events/bgngtqyzkblb/][Lambda Luminaries talk]].
