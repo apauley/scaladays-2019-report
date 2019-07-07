@@ -32,6 +32,12 @@ EPFL Campus, where Scala began
 :reveal_background_trans: slide
 :END:
 
+** Lausanne
+:PROPERTIES:
+:reveal_background: images/RoofsLake.jpg
+:reveal_background_trans: slide
+:END:
+
 * Schedule Overview
 
 - Monday: Contributor's Summit
