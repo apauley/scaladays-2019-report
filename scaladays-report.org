@@ -156,4 +156,48 @@ https://scaladays.org/schedule
 
 https://portal.klewel.com/watch/nice_url/scala-days-2019/
 
-* TypeLevel Summit Talks
+* [[https://typelevel.org/event/2019-06-summit-lausanne/][TypeLevel Summit Talks]]
+
+** Some Mistakes We Made When Designing Implicits (And Some Things We Got Right)
+
+Martin Odersky ([[https://www.twitter.com/odersky][@odersky]])
+
+=Summary:=
+Implicits out, delegates in
+
+** [[https://www.youtube.com/watch?v=QoRm47x8gv8][Brave New World - tales of PureScript and Haskell in production]]
+
+Felix Mulder ([[https://twitter.com/FelixMulder][@FelixMulder]])
+
+=Summary:=
+
+Klarna is using Haskell in production.
+They found it easier to teach to newcomers than Scala.
+
+** [[https://www.youtube.com/watch?v=wO_jX8wGhU0][Actors Design Patterns and Arrowised FRP]]
+
+Diego E. Alonso ([[https://twitter.com/diesalbla][@diesalbla]])
+
+=Summary:=
+We can try to understand Functional Reactive Programming by using actors as a metaphor.
+
+** [[https://www.youtube.com/watch?v=han6vHzPLsY][Taking Resources to the Type Level]]
+
+Vilem-Benjamin Liepelt ([[https://twitter.com/buggymcbugfix][@buggymcbugfix]])
+
+=Summary:=
+The [[https://granule-project.github.io/][Granule programming language]] has linear types. Linear types are cool.
+
+** [[https://www.youtube.com/watch?v=K1ZwpumSHCc][Formal verification of Scala programs with Stainless]]
+
+Romain Ruetschi ([[https://twitter.com/_romac][@_romac]])
+
+=Summary:=
+EPFL develops [[https://stainless.epfl.ch/][Stainless]], a tool which can formally verify a subset of Scala.
+
+** [[https://www.youtube.com/watch?v=TBfvbrAXaWA][Exploring Scala Tooling ecosystem]]
+
+Jeferson David Ossa ([[https://twitter.com/unyagami][@unyagami]])
+
+=Summary:=
+A [[https://speakerdeck.com/jedossa/exploring-the-scalas-tooling-ecosystem][summary]] of the latest tooling available to Scala developers.
