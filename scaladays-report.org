@@ -38,7 +38,7 @@ as well as many features that will help you when writing functional programs.
 
 Reynold Xin ([[https://www.twitter.com/rxin][@rxin]])
 
-=Summary:= Data pipelines using Scala is cool. Also, you should use our commercial products.
+=Summary:= Data pipelines using Scala is cool. DataBricks wants you to use their commercial products.
 
 ** [[https://scaladays.org/schedule/techniques-for-teaching-scala][Techniques for Teaching Scala]]
 
@@ -64,15 +64,18 @@ Viktor Klang ([[https://www.twitter.com/viktorklang][@viktorklang]])
 
 =Summary:=
 In future Future's will still immediately start running when created.
-Regardless, there are a few things that can be done to make an eager Future faster and better. We've done those things.
+Regardless, there are a few things that can be done to make an eager Future faster and better.
+Viktor said they did those things. And notably, they haven't mentioned cats-effect IO, Monix or ZIO.
 
 ** [[https://scaladays.org/schedule/the-shapeless-of-type-class-derivation-in-scala-3][The Shape(less) of Type Class Derivation in Scala 3]]
 
 Miles Sabin ([[https://www.twitter.com/milessabin][@milessabin]])
 
 =Summary:=
-I modified the compiler in a few trivial ways so you can see the code that gets generated at compile time when I do these simple but totally incomprehensible things.
-The reason why you would want to do these incomprehensible things is incomprehensible. Maybe it only applies to people writing the Shapeless library.
+Miles showed the code that gets generated at compile time when he does a few "simple" but totally incomprehensible things.
+
+The reason why you would want to do these incomprehensible things is incomprehensible.
+Maybe it only applies to people writing the Shapeless library.
 
 ** [[https://scaladays.org/schedule/concurrent-programming-in-2019-akka-monix-or-zio][Concurrent programming in 2019: Akka, Monix or ZIO?]]
 
