@@ -61,6 +61,12 @@ EPFL Campus, where Scala began
 :reveal_background_repeat: repeat
 :END:
 
+** Swiss Braai Equipment
+:PROPERTIES:
+:reveal_background: images/SwissBraai.jpg
+:reveal_background_trans: slide
+:END:
+
 * Schedule Overview
 
 - Monday: Contributor's Summit
