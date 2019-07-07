@@ -26,6 +26,12 @@ EPFL Campus, where Scala began
 
 École Polytechnique Fédérale de Lausanne
 
+** Lausanne
+:PROPERTIES:
+:reveal_background: images/LausanneLakeBoat.jpg
+:reveal_background_trans: slide
+:END:
+
 * Schedule Overview
 
 - Monday: Contributor's Summit
