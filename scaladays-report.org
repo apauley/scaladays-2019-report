@@ -2,7 +2,7 @@
 #+AUTHOR:
 #+REVEAL_THEME: sky
 #+REVEAL_TRANS: default
-#+OPTIONS: toc:nil, num:nil
+#+OPTIONS: toc:nil, num:nil, reveal_title_slide:nil
 
 * ScalaDays 2019
 :PROPERTIES:
