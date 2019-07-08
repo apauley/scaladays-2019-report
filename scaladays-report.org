@@ -246,3 +246,23 @@ Jeferson David Ossa ([[https://twitter.com/unyagami][@unyagami]])
 
 =Summary:=
 A [[https://speakerdeck.com/jedossa/exploring-the-scalas-tooling-ecosystem][summary]] of the latest tooling available to Scala developers.
+
+* Something cool to look forward to
+
+** [[https://github.com/fthomas/scala-steward][Scala Steward]]
+
+A bot that submits PR's with upgraded version numbers for dependencies.
+
+** [[https://scalacenter.github.io/scalafix/][ScalaFix]]
+
+Write rules to automatically refactor Scala code
+
+**  [[https://scalacenter.github.io/scalafix/][ScalaFix]] + [[https://github.com/fthomas/scala-steward][Scala Steward]]
+
+A bot that automatically upgrades and refactors your code!
+
+* Questions?
+:PROPERTIES:
+:reveal_background: ./images/forest-gnome.jpeg
+:reveal_background_trans: slide
+:END:
