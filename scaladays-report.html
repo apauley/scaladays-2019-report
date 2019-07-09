@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>ScalaDays 2019</title>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="./reveal.js/css/reveal.css"/>
+
+<link rel="stylesheet" href="./reveal.js/css/theme/sky.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = './reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+<section>
+<section id="slide-orgfe07917" data-background="images/olympic-dinner-view.jpg" data-background-transition="slide">
+<h2 id="orgfe07917">ScalaDays 2019</h2>
+<p>
+Report from the Trenches
+</p>
+
+<p>
+Andreas Pauley
+</p>
+
+<p>
+<a href="https://twitter.com/apauley">@apauley</a>
+</p>
+
+</section>
+<section id="slide-org9d692dd" data-background="images/EPFL.jpg" data-background-transition="slide">
+<h3 id="org9d692dd">EPFL Campus, where Scala began</h3>
+<p>
+École Polytechnique Fédérale de Lausanne
+</p>
+
+</section>
+<section id="slide-org21e5c20" data-background="images/SwissTechConventionCentre.jpg" data-background-transition="slide">
+<h3 id="org21e5c20">Swisstech Convention Centre</h3>
+
+</section>
+<section id="slide-orgc8a804f" data-background="images/LausanneLakeBoat.jpg" data-background-transition="slide">
+<h3 id="orgc8a804f">Lausanne</h3>
+
+</section>
+<section id="slide-orgc41b56f" data-background="images/RoofsLake.jpg" data-background-transition="slide">
+<h3 id="orgc41b56f">Lausanne</h3>
+
+</section>
+<section id="slide-org508566e" data-background="images/Cathedral.jpg" data-background-size="1500px" data-background-transition="slide">
+<h3 id="org508566e">Cathedral</h3>
+
+</section>
+<section id="slide-orgeba50eb" data-background="images/ColdMeatPlate.jpg" data-background-size="1500px" data-background-repeat="repeat" data-background-transition="slide">
+<h3 id="orgeba50eb">Swiss Food</h3>
+
+</section>
+<section id="slide-orga974ff9" data-background="images/CheeseFondu.jpg" data-background-size="1500px" data-background-repeat="repeat" data-background-transition="slide">
+<h3 id="orga974ff9">Swiss Food</h3>
+
+</section>
+<section id="slide-org9df0d4f" data-background="images/SwissBraai.jpg" data-background-transition="slide">
+<h3 id="org9df0d4f">Swiss Braai Equipment</h3>
+
+</section>
+</section>
+<section>
+<section id="slide-orge001938">
+<h2 id="orge001938">Schedule Overview</h2>
+<ul>
+<li>Monday: Contributor's Summit</li>
+
+<li>Tuesday - Thursday: ScalaDays 2019 Talks</li>
+
+<li>Friday: Typelevel Summit</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orgcd070fa" data-background="images/ContributorsSummit.jpg" data-background-transition="slide">
+<h2 id="orgcd070fa">Contributor's Summit</h2>
+
+</section>
+</section>
+<section>
+<section id="slide-org80dce82" data-background="images/ScalaStaircase.jpg" data-background-size="700px" data-background-repeat="repeat" data-background-transition="slide">
+<h2 id="org80dce82">The Scala Staircase</h2>
+
+
+</section>
+</section>
+<section>
+<section id="slide-org9ee02e4">
+<h2 id="org9ee02e4">Other Surrounding Events</h2>
+<p>
+Various dinners, coding get-togethers and walking tours.
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-org36f0df6" data-background="images/ScalaDaysBanner.jpg" data-background-transition="slide">
+<h2 id="org36f0df6">A Few ScalaDays Talks</h2>
+</section>
+<section id="slide-org383417c">
+<h3 id="org383417c"><a href="https://scaladays.org/schedule/a-tour-of-scala-3">A Tour of Scala 3</a> (Keynote)</h3>
+<p>
+Martin Odersky (<a href="https://www.twitter.com/odersky">@odersky</a>)
+</p>
+
+<p>
+<code>Summary:</code>
+Some cool new features that makes Scala development easier and simpler for beginners,
+as well as many features that will help you when writing functional programs.
+</p>
+
+</section>
+<section id="slide-org5b502f6">
+<h3 id="org5b502f6"><a href="https://scaladays.org/schedule/techniques-for-teaching-scala">Techniques for Teaching Scala</a></h3>
+<p>
+Noel Welsh (<a href="https://www.twitter.com/noelwelsh">@noelwelsh</a>)
+</p>
+
+<p>
+<code>Summary:</code> We should focus on developing our teaching skills. Here are some useful ways to do this in Scala.
+</p>
+
+</section>
+<section id="slide-org267148f">
+<h3 id="org267148f"><a href="https://scaladays.org/schedule/akka-streams-to-the-extreme">Akka Streams to the Extreme</a></h3>
+<p>
+Heiko Seeberger (<a href="https://www.twitter.com/hseeberger">@hseeberger</a>)
+</p>
+
+<p>
+<code>Summary:</code> Akka Actors have many anti-patterns. Here is an example where doing distributed computation with Akka Streams can be better.
+</p>
+
+</section>
+<section id="slide-org698668d">
+<h3 id="org698668d"><a href="https://scaladays.org/schedule/massively-parallel-distributed-scala-compilation----and-you">Massively Parallel Distributed Scala Compilation&#x2026; And You!</a></h3>
+<p>
+Stu Hood (<a href="https://www.twitter.com/stuhood">@stuhood</a>)
+</p>
+
+<p>
+<code>Summary:</code> Twitter is doing some amazing things to speed up compilation on a code base with millions of lines of Scala code.
+</p>
+
+</section>
+<section id="slide-orgd882cf9">
+<h3 id="orgd882cf9"><a href="https://scaladays.org/schedule/making-our-future-better">Making Our Future Better</a></h3>
+<p>
+Viktor Klang (<a href="https://www.twitter.com/viktorklang">@viktorklang</a>)
+</p>
+
+<p>
+<code>Summary:</code>
+In future Future's will still immediately start running when created.
+Regardless, there are a few things that can be done to make an eager Future faster and better.
+Viktor said they did those things. And notably, they haven't mentioned cats-effect IO, Monix or ZIO.
+</p>
+
+</section>
+<section id="slide-orgbaeb266">
+<h3 id="orgbaeb266"><a href="https://scaladays.org/schedule/concurrent-programming-in-2019-akka-monix-or-zio">Concurrent programming in 2019: Akka, Monix or ZIO?</a></h3>
+<p>
+Adam Warski (<a href="https://www.twitter.com/adamwarski">@adamwarski</a>)
+</p>
+
+<p>
+<code>Summary:</code>
+An impressive live-coding session where the same problem was solved, first with Akka actors and then with ZIO.
+</p>
+
+</section>
+<section id="slide-org077c946">
+<h3 id="org077c946"><a href="https://scaladays.org/schedule/pure-functional-database-programming-without-jdbc">Pure Functional Database Programming‚ without JDBC</a></h3>
+<p>
+Rob Norris (<a href="https://www.twitter.com/tpolecat">@tpolecat</a>)
+</p>
+
+<p>
+<code>Summary:</code>
+Rob is the author of the most popular DB library for Scala, <a href="https://tpolecat.github.io/doobie/">Doobie</a> (using JDBC).
+JDBC is very old and blocking.
+Rob mentioned his new <a href="https://github.com/tpolecat/skunk">Skunk</a> library, and how he used some of the existing pure-functional libraries
+(e.g. scodec and FS2) to make a direct TCP connection to PostgreSQL, and do some non-blocking DB queries.
+</p>
+
+</section>
+<section id="slide-orgf83bbf6">
+<h3 id="orgf83bbf6"><a href="https://scaladays.org/schedule/scalaclean---full-program-static-analysis-at-scale">ScalaClean - full program static analysis at scale</a></h3>
+<p>
+Rory Graves (<a href="https://www.twitter.com/a_dev_musing">@a_<sub>dev</sub>_<sub>musing</sub></a>)
+</p>
+
+<p>
+<code>Summary:</code>
+If your analysis includes all of the code to be deployed, then <a href="https://scalacenter.github.io/scalafix/">ScalaFix</a> can safely modify the code in interesting ways.
+For example, it can change method/class/package visibility to the minimum, or remove unused parameters.
+</p>
+
+</section>
+<section id="slide-orgebed6f9">
+<h3 id="orgebed6f9"><a href="https://scaladays.org/schedule/compiling-to-preserve-our-privacy">Compiling to preserve our privacy</a></h3>
+<p>
+<a href="https://www.twitter.com/manojah_shanti">Manohar Jonnalagedda</a> and <a href="https://www.twitter.com/jodersky">Jakob Odersky</a>.
+</p>
+
+<p>
+<code>Summary:</code>
+Suppose you want to get answers from multiple data sources.
+But the data in each source can't be shared.
+</p>
+
+<p>
+Real world example: certain organisations maintain spy satellites in orbit
+around the earth. None of them desire sattelite collisions.
+And none of them want to reveal the locations of their sattelites.
+</p>
+
+</section>
+<section id="slide-orgf073949">
+<h3 id="orgf073949"><a href="https://scaladays.org/schedule/interactive-computing-with-jupyter-and-almond">Interactive Computing with Jupyter and Almond</a></h3>
+<p>
+Sören Brunk (<a href="https://www.twitter.com/soebrunk">@soebrunk</a>)
+</p>
+
+<p>
+<code>Summary:</code>
+</p>
+
+<p>
+<a href="https://github.com/almond-sh/almond">Almond</a> allows you to write Scala code in your Jupyter notebooks.
+The presentation was done entirely within Almond/Jupyter and featured live code
+editing from within the presentation.
+</p>
+
+</section>
+<section id="slide-org02880df">
+<h3 id="org02880df"><a href="https://scaladays.org/schedule/all-the-fancy-things-flexible-dependency-management-can-do">All the fancy things flexible dependency management can do</a></h3>
+<p>
+Alexandre Archambault (<a href="https://www.twitter.com/alxarchambault">@alxarchambault</a>)
+</p>
+
+<p>
+<code>Summary:</code>
+Coursier can do much more than just parallel downloads.
+Among other things it can install applications and help bootstrap a clean system
+with a Scala dev environment.
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-org409d9bb">
+<h2 id="org409d9bb">Other ScalaDays Talks</h2>
+<p>
+<a href="https://scaladays.org/schedule">https://scaladays.org/schedule</a>
+</p>
+
+<p>
+<a href="https://portal.klewel.com/watch/nice_url/scala-days-2019/">https://portal.klewel.com/watch/nice_url/scala-days-2019/</a>
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-org8f32b32">
+<h2 id="org8f32b32"><a href="https://typelevel.org/event/2019-06-summit-lausanne/">Typelevel Summit Talks</a></h2>
+<div class="outline-text-2" id="text-org8f32b32">
+</div>
+</section>
+<section id="slide-orgb873e84">
+<h3 id="orgb873e84">Some Mistakes We Made When Designing Implicits (And Some Things We Got Right)</h3>
+<p>
+Martin Odersky (<a href="https://www.twitter.com/odersky">@odersky</a>)
+</p>
+
+<p>
+<code>Summary:</code>
+Implicits out, delegates in
+</p>
+
+</section>
+<section id="slide-orgcd0db31">
+<h3 id="orgcd0db31"><a href="https://www.youtube.com/watch?v=QoRm47x8gv8">Brave New World - tales of PureScript and Haskell in production</a></h3>
+<p>
+Felix Mulder (<a href="https://twitter.com/FelixMulder">@FelixMulder</a>)
+</p>
+
+<p>
+<code>Summary:</code>
+</p>
+
+<p>
+Klarna is using Haskell in production.
+They found it easier to teach to newcomers than Scala.
+</p>
+
+</section>
+<section id="slide-org4121f10">
+<h3 id="org4121f10"><a href="https://www.youtube.com/watch?v=wO_jX8wGhU0">Actors Design Patterns and Arrowised FRP</a></h3>
+<p>
+Diego E. Alonso (<a href="https://twitter.com/diesalbla">@diesalbla</a>)
+</p>
+
+<p>
+<code>Summary:</code>
+We can try to understand Functional Reactive Programming by using actors as a metaphor.
+</p>
+
+</section>
+<section id="slide-orgf935e02">
+<h3 id="orgf935e02"><a href="https://www.youtube.com/watch?v=han6vHzPLsY">Taking Resources to the Type Level</a></h3>
+<p>
+Vilem-Benjamin Liepelt (<a href="https://twitter.com/buggymcbugfix">@buggymcbugfix</a>)
+</p>
+
+<p>
+<code>Summary:</code>
+The <a href="https://granule-project.github.io/">Granule programming language</a> has linear types. Linear types are cool.
+</p>
+
+</section>
+<section id="slide-orgde4b4b3">
+<h3 id="orgde4b4b3"><a href="https://www.youtube.com/watch?v=K1ZwpumSHCc">Formal verification of Scala programs with Stainless</a></h3>
+<p>
+Romain Ruetschi (<a href="https://twitter.com/_romac">@<sub>romac</sub></a>)
+</p>
+
+<p>
+<code>Summary:</code>
+EPFL develops <a href="https://stainless.epfl.ch/">Stainless</a>, a tool which can formally verify a subset of Scala.
+</p>
+
+</section>
+<section id="slide-org51be97e">
+<h3 id="org51be97e"><a href="https://www.youtube.com/watch?v=TBfvbrAXaWA">Exploring Scala Tooling ecosystem</a></h3>
+<p>
+Jeferson David Ossa (<a href="https://twitter.com/unyagami">@unyagami</a>)
+</p>
+
+<p>
+<code>Summary:</code>
+A <a href="https://speakerdeck.com/jedossa/exploring-the-scalas-tooling-ecosystem">summary</a> of the latest tooling available to Scala developers.
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-org007d8e2">
+<h2 id="org007d8e2">Something cool to look forward to</h2>
+<div class="outline-text-2" id="text-org007d8e2">
+</div>
+</section>
+<section id="slide-orgb8d9b1f">
+<h3 id="orgb8d9b1f"><a href="https://github.com/fthomas/scala-steward">Scala Steward</a></h3>
+<p>
+A bot that submits PR's with upgraded version numbers for dependencies.
+</p>
+
+</section>
+<section id="slide-org3c4850e">
+<h3 id="org3c4850e"><a href="https://scalacenter.github.io/scalafix/">ScalaFix</a></h3>
+<p>
+Write rules to automatically refactor Scala code
+</p>
+
+</section>
+<section id="slide-orgeac1339">
+<h3 id="orgeac1339"><a href="https://scalacenter.github.io/scalafix/">ScalaFix</a> + <a href="https://github.com/fthomas/scala-steward">Scala Steward</a></h3>
+<p>
+A bot that automatically upgrades and refactors your code!
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-org234bce4" data-background="./images/forest-gnome.jpeg" data-background-transition="slide">
+<h2 id="org234bce4">Questions?</h2>
+</section>
+</section>
+</div>
+</div>
+<script src="./reveal.js/lib/js/head.min.js"></script>
+<script src="./reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+overview: true,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: './reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: './reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: './reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>
